@@ -1,0 +1,29 @@
+{
+    "name": "air_drop",
+    "version": "0.1.0",
+    "private": true,
+    "resolutions": {
+      "@polkadot/api": "^4.11.2",
+      "@polkadot/api-contract": "^4.11.2",
+      "typescript": "4.2.4"
+    },
+    "dependencies": {
+      "@redspot/chai": "../../redspot/build/redspot-chai",
+      "@redspot/decimals": "../../redspot/build/redspot-decimals",
+      "@redspot/explorer": "../../redspot/build/redspot-explorer",
+      "@redspot/gas-reporter": "../../redspot/build/redspot-gas-reporter",
+      "@redspot/known-types": "../../redspot/build/redspot-known-types",
+      "@redspot/patract": "../../redspot/build/redspot-patract",
+      "@redspot/watcher": "../../redspot/build/redspot-watcher",
+      "@types/chai": "^4.2.14",
+      "@types/mocha": "^8.0.3",
+      "chai": "^4.2.0",
+      "redspot": "../../redspot/build/redspot-core",
+      "typescript": "4.2.4"
+    },
+    "scripts": {
+      "build": "npx redspot compile",
+      "test": "npx redspot test"
+    }
+  }
+  
