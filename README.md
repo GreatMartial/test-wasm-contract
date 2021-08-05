@@ -1,7 +1,7 @@
 air_drop合约用于跨合约调用erc20合约，实现空投
 
 项目结构：
-1. artifacts: 包含cargo-contract编译的wasm文件
+1. artifacts: 包含patractlabs/cargo-contract编译的wasm文件
 2. contract: 包含 air_drop和erc20合约源码
 3. scrips: redspot部署脚本
 4. tests: 简单的合约测试脚本
